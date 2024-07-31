@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-image: url(https://img.freepik.com/free-vector/abstract-technological-background_23-2148897676.jpg);
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+    margin-top: 2em; 
+}
+
+
+h2{
+    color: rgb(255, 255, 255);
+    margin-top: 10em;
+    margin-left: 6.7em;
+    display: inline-block;
+}
+
+h2:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+
+span{
+    font-size: 19px;
+    font-weight: bold;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+span:hover{
+
+    color: blueviolet;
+}
+
+a{
+    text-decoration: none;
+}
+
+.box{
+    background-color: wheat;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    align-content: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY4x_YQ8-L_0HusMDme6RP1-zmYa7mFR7ZhQ&s)
+}
+
